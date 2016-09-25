@@ -1,5 +1,5 @@
 body {
-	background: url("../images/congruent_pentagon.png");
+	background: url("../images/black.jpg");
 	font-size: 18px;
 	line-height: 34px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -29,7 +29,7 @@ p:last-child {
 h1, h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: 700;
-	color: #4aaaa5;
+	color: #555555;
 }
 h1 {
 	font-size: 30px;
@@ -45,7 +45,7 @@ h3 {
 /*header*/
 
 #masthead {
-	background: #fff;
+	background: #282828;
 	margin: 0 0 30px;
 	z-index: 99;
 	color: #fff;
@@ -59,7 +59,7 @@ h3 {
 	margin-left: 2%;
 	width: 250px;
 	height: 90px;
-	background: #4aaaa5;
+    background: rgba(171, 173, 173, 0.33);
 	float: left;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
@@ -93,7 +93,7 @@ footer {
 	color: #fff;
 	padding: 30px 0;
 	clear: both;
-	border-top: 8px solid #4aaaa5;
+	border-top: 8px solid rgb(110, 10, 4);
 	color: #ccc;
 	font-size: 12px;
 	text-align: center;
@@ -122,6 +122,11 @@ h3,
 	margin-top: 8px;
 	margin-right: 5px;
 }
+
+.social:hover {
+  transform: translateX(5px) rotate(360deg);
+}
+
 .social:last-child {
 	margin-right: 0;
 }
@@ -160,8 +165,8 @@ h3,
 	opacity: .8;
 }
 .work h3 {
-	border-bottom: 0;
-	background: #4aaaa5;
+    background: rgba(171, 173, 173, 0.33);
+    color: #000;
 	color: #fff;
 	text-align: center;
 	position: absolute;
