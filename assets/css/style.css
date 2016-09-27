@@ -103,7 +103,7 @@ footer {
 /*sidebar*/
 
 .sidebar {
-	background:rgba(171, 173, 173, 0.33);
+	background:rgba(40, 40, 40, 0.71);
 	padding: 30px;
 	float: right;
 	border: 1px solid #ddd;
@@ -141,7 +141,7 @@ h3,
 .body-section {
 	margin: 0 10px 20px 0;
 	margin-left: 2%;
-	background: rgba(239, 239, 239, 0.39);
+	background: rgba(40, 40, 40, 0.71);
 	padding: 30px;
 	width: 100%;
 	max-width: 650px;
