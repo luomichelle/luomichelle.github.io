@@ -72,6 +72,11 @@ h3 {
 	font-size: 30px;
 	text-decoration: none;
 }
+
+#logo:hover{
+	background: #cccccc;
+}
+
 nav {
 	float: right;
 	margin-top: 25px;
@@ -85,6 +90,11 @@ nav a {
 	padding-left: 15px;
 	line-height: 18px;
 }
+
+nav a:hover{
+	color: #cccccc;
+}
+
 nav a:first-child {
 	border-left: 0 none;
 }
@@ -166,6 +176,10 @@ h3,
 	width: 100%;
 	border: 0 none;
 	opacity: .8;
+}
+
+.work img:hover{
+	opacity: 2;
 }
 .work h3 {
     background: rgba(171, 173, 173, 0.33);
