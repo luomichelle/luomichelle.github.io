@@ -59,12 +59,12 @@ h6 {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-	color: #0066FF;
+	color: #FFECB3;
 	background-color: transparent;
 }
 
 .navbar-default {
-    background-color: #2C3E50;
+    background-color: #FFA000;
     border-color: transparent;
 }
 
@@ -81,13 +81,13 @@ h6 {
 }
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-    color: #0066ff;
+    color: #FFECB3;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #FFF;
-    background-color: #1A242F;
+    background-color: #FFC107;
 }
 
 .navbar-default .navbar-toggle {
@@ -117,7 +117,7 @@ section h2 {
 #introduction {
 	text-align: center;
 	color: #fff;
-	background-color: #0066FF;
+	background-color: #FFC107;
 }
 
 #introduction .container {
