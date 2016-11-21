@@ -1,0 +1,236 @@
+/* Base Styles
+/* -------------------------------------*/
+body { overflow-x: hidden; }
+
+p { font-size: 20px; }
+
+p.small { font-size: 16px; }
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #18bc9c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+/* Navigation Bar Styles
+/* -------------------------------------*/
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+.navbar-nav > li > a {
+    padding-top: 19.5px;
+    padding-bottom: 19.5px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #0066FF;
+	background-color: transparent;
+}
+
+.navbar-default {
+    background-color: #2C3E50;
+    border-color: transparent;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #0066ff;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #1A242F;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+	color: #FFF;
+}
+
+/* All Section Styles
+/* -------------------------------------*/
+section {
+    padding: 100px 0;
+}
+
+section h2 {
+    margin: 0;
+    font-size: 3em;
+}
+
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+}
+
+/* Introduction Styles
+/* -------------------------------------*/
+#introduction {
+	text-align: center;
+	color: #fff;
+	background-color: #0066FF;
+}
+
+#introduction .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#introduction img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#introduction .intro-text .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#introduction .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media(min-width:768px) {
+    #introduction .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #introduction .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    #introduction .intro-text .skills {
+        font-size: 1.75em;
+    }
+}
+
+/* About & Contact Styles
+/* -------------------------------------*/
+#about, #contact {
+    background: #ebebeb;
+}
+
+/* Portfolio Styles
+/* -------------------------------------*/
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+/* Contact Styles
+/* -------------------------------------*/
+.btn-social {
+    color: #2c3e50;
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #2c3e50;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active {
+    outline: 0;
+}
+
+/* Footer Styles
+/* -------------------------------------*/
+footer {
+    color: #fff;
+	background-color: #2c3e50;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/* Back to Top
+/* -------------------------------------*/
+#toTop {
+	background:#999;
+	cursor:pointer;
+	display:none;
+	color: #fff;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	text-decoration: none;
+	height: 32px;
+	width: 32px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 9999;
+	
+	opacity: 0.5;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	    filter: alpha(opacity=50);
+}
+
+/* Other Styles
+/* -------------------------------------*/
+.wow {
+   visibility: hidden;
+ }
