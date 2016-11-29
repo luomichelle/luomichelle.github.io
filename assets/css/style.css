@@ -168,14 +168,14 @@ section h2 {
     }
 }
 
-/* About & Contact Styles
-/* -------------------------------------*/
+ About & Contact Styles
+ -------------------------------------
 #about, #contact {
     background: #ffa000;
 }
 
 /* Portfolio Styles
-/* -------------------------------------*/
+/* -------------------------------------
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -243,6 +243,7 @@ footer {
 /* -------------------------------------*/
 .wow {
    visibility: hidden;
+   margin-top: 1%;
  }
 
 /*modal
