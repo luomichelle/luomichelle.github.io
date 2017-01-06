@@ -174,20 +174,6 @@ section h2 {
     background: #ffa000;
 }
 
-/* Portfolio Styles
-/* -------------------------------------
-#portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
-}
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px;
-    }
-}
-
-/* Contact Styles
 /* -------------------------------------*/
 .btn-social {
     color: #2c3e50;
@@ -241,6 +227,9 @@ footer {
 
 /* Other Styles
 /* -------------------------------------*/
+.contact-section{
+    background-color:#bdbdbd;
+}
 .wow {
    visibility: hidden;
    margin-top: 1%;
